@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42cd77c2-2a8b-40d7-a898-edb2fabf197c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PlayingWithIronPython.py</StartupFile>
+    <StartupFile>PythonGenerics.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,11 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{80659ab7-4d53-4e0c-8588-a766116cbd46}\2.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PythonGenerics.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
