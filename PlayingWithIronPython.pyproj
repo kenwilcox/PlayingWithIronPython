@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42cd77c2-2a8b-40d7-a898-edb2fabf197c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonLibs.py</StartupFile>
+    <StartupFile>PythonMapack.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,7 +37,17 @@
     <Compile Include="PythonLibs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PythonMapack.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="xmlutil.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Mapack\Mapack.csproj">
+      <Name>Mapack</Name>
+      <Project>{c38e0a85-1d89-48c6-a3c6-5a94de6b4b8d}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
