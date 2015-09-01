@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>42cd77c2-2a8b-40d7-a898-edb2fabf197c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonGenerics.py</StartupFile>
+    <StartupFile>PythonLibs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,10 @@
     <Compile Include="PythonGenerics.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PythonLibs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xmlutil.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
